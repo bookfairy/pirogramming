@@ -1,0 +1,127 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration-line: none;
+}
+
+/* ---------- 슬라이더 ---------- */
+
+#slider {
+    margin-bottom: 50px;
+}
+
+/* 슬라이더 아이템 */
+.carousel-item {
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+/* 기타 슬라이드 */
+#guitar {
+    background-image: url("../images/guitar.jpg");
+    background-position: left center;
+}
+
+/* 메이크업 슬라이드 */
+#make-up {
+    background-image: url("../images/makeup.jpg");
+    background-position: center top;
+}
+
+/* 요리 슬라이드 */
+#cooking {
+    background-image: url("../images/cooking.jpg");
+    background-position: center center;
+}
+
+/* 슬라이드 내 콘텐츠 */
+.carousel-contents {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+/* 슬라이드 내 제목 */
+.carousel-contents > .carousel-title {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+/* 슬라이드 내 내용 */
+.carousel-contents > p {
+    font-size: 22px;
+    margin-bottom: 48px;
+}
+
+/* 수업 찾기 버튼 */
+.btn.class-find {
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #5900E7;
+}
+
+
+/* ---------- 본문 내용 ---------- */
+
+.container {
+    margin-bottom: 70px;
+}
+
+/* 경고 영역 */
+.alert-area {
+    padding: 0 15px;
+}
+
+/* 카드 내용 */
+.card-area {
+    margin-bottom: 20px;
+}
+
+.card-area > .card-inner {
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-area > .card-inner > .course-image {
+    width: 100%;
+}
+
+.card-area > .card-inner > .course-content {
+    padding: 10px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.course-content > .title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+.course-content > .user {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 100%;
+}
+
+.course-content > .user > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.course-content > .user > span {
+    font-size: 13px;
+    color: #4a4a4a;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ShareSkill</title>
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SHARESKILL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-area">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-area">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">튜터 신청</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">수업 목록</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">회원가입</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">로그인</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- carousel -->
+    <article id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div id="guitar" class="carousel-item active">
+                <div class="carousel-contents">
+                    <div class="carousel-title">음악 배워보세요</div>
+                    <p>멋진 뮤지션들이 주변에 있습니다.</p>
+                    <button class="btn class-find" type="button">수업 찾기</button>
+                </div>
+            </div>
+            <div id="make-up" class="carousel-item">
+                <div class="carousel-contents">
+                    <div class="carousel-title">메이크업 배워보세요</div>
+                    <p>멋진 메이크업 아티스트들이 주변에 있습니다.</p>
+                    <button class="btn class-find" type="button">수업 찾기</button>
+                </div>
+            </div>
+            <div id="cooking" class="carousel-item">
+                <div class="carousel-contents">
+                    <div class="carousel-title">요리 배워보세요</div>
+                    <p>멋진 요리사들이 주변에 있습니다.</p>
+                    <button class="btn class-find" type="button">수업 찾기</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </article>
+
+
+    <!-- 본문 영역 -->
+    <article class="container">
+        <div class="row">
+            <section class="col-12 alert-area">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <b>튜터 모집!</b> 재능을 나누어봐요.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </section>
+
+            <article class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course1.jpg">
+                    <div class="course-content">
+                        <div class="title">개성있는 일러스트 작품 만들기</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>문종모</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course2.jpg">
+                    <div class="course-content">
+                        <div class="title">내가 만드는 나만의 악세사리</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>하지은</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course3.jpg">
+                    <div class="course-content">
+                        <div class="title">내 이야기를 노래로!</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>김신의</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course4.jpg">
+                    <div class="course-content">
+                        <div class="title">비전공자를 위한 웹 프로그래밍</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>손동욱</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course5.jpg">
+                    <div class="course-content">
+                        <div class="title">자신감 업! 메이크업 클래스</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>강귀영</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course6.jpg">
+                    <div class="course-content">
+                        <div class="title">아이돌 댄스 정복하기</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>박윤석</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course7.jpg">
+                    <div class="course-content">
+                        <div class="title">사진 작가에게 배우는 야외 사진</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>이윤수</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-area col-12 col-md-6 col-lg-4 col-xl-3">
+                <a class="card-inner" href="#">
+                    <img class="course-image" src="images/course8.jpg">
+                    <div class="course-content">
+                        <div class="title">기본부터 익히는 플라워 클래스</div>
+                        <div class="user">
+                            <img src="images/user.png">
+                            <span>서혜린</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </article>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
