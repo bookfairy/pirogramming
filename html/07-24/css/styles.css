@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('../font/BMJUA_otf.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'BMJUA', sans-serif;
+    align-items: center;
+}
+
+body {
+    background-color: #F0E8D9;
+    color: #58595B;
+}
+
+header {
+    text-align: center;
+    margin: 75px 0;
+}
+
+header > #title {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+header > #sub-title {
+    font-size: 32px;
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto 50px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* 이미지가 border-radius 삐져나오는 현상 방지 */
+}
+
+.card > .image {
+    width: 300px;
+    height: 200px;
+}
+
+.card > .image > img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.card > .caption {
+    padding: 20px;
+}
+
+.card > .caption > .title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card > .caption > .content {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.card > .caption > .pay {
+    text-align: center;
+    align-items: center;
+}
+
+.card > .caption > .pay > a {
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+}
