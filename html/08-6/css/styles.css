@@ -1,0 +1,12 @@
+h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+[class^="box-"]:nth-child(odd) {
+    background: #FA987D;
+}
+
+[class^="box-"]:nth-child(even) {
+    background: #72CCA7;
+}
