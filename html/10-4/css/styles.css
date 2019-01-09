@@ -1,0 +1,25 @@
+.quote {
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    margin-top: 75px;
+}
+
+.quote > .bigger {
+    font-size: 3em;
+    position: relative;
+    margin: 0 15px;
+}
+
+.quote > .bigger:first-child {
+    top: 20px;
+}
+
+.quote > .bigger:nth-child(2) {
+    top: 80px;
+}
+
+.figure {
+    margin-top: 50px;
+}
