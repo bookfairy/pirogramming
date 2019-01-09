@@ -1,0 +1,2 @@
+english: 영어
+korea: 대한민국
