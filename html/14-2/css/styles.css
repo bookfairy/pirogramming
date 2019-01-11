@@ -7,82 +7,82 @@ body {
     float: left;
 }
 
-#menu {
+#div1 {
     background-color: #FF0000;
 }
 
-#intro {
+#div2 {
     background-color: #FFA500;
 }
 
-#content {
+#div3 {
     background-color: #FFFF00;
 }
 
-#show1 {
+#div4 {
     background-color: #008000;
 }
 
-#show2 {
+#div5 {
     background-color: #0000FF;
 }
 
-#show3 {
+#div6 {
     background-color: #4B0082;
 }
 
 /* 767 이하 */
 @media (max-width: 767px) {
-    #menu {
+    #div1 {
         height: 60px
     }
 
-    #intro {
+    #div2 {
         height: 350px
     }
 
-    #content {
+    #div3 {
         height: 320px;
     }
 
-    #show1 {
+    #div4 {
         height: 385px;
     }
 
-    #show2 {
+    #div5 {
         height: 200px;
     }
 
-    #show3 {
+    #div6 {
         height: 200px;
     }
 }
 
 /* 768 ~ 991 */
 @media (min-width: 768px) {
-    #menu {
+    #div1 {
         height: 60px
     }
 
-    #intro {
+    #div2 {
         height: 562px
     }
 
-    #content {
+    #div3 {
         height: 282px;
     }
 
-    #show1 {
+    #div4 {
         width: 50%;
         height: 360px;
     }
 
-    #show2 {
+    #div5 {
         width: 50%;
         height: 180px;
     }
 
-    #show3 {
+    #div6 {
         width: 50%;
         height: 180px;
     }
@@ -90,31 +90,31 @@ body {
 
 /* 992 이상 */
 @media (min-width: 992px) {
-    #menu {
+    #div1 {
         height: 60px
     }
 
-    #intro {
+    #div2 {
         width: 50%;
         height: 700px
     }
 
-    #content {
+    #div3 {
         width: 50%;
         height: 350px;
     }
 
-    #show1 {
+    #div4 {
         width: 25%;
         height: 350px;
     }
 
-    #show2 {
+    #div5 {
         width: 25%;
         height: 175px;
     }
 
-    #show3 {
+    #div6 {
         width: 25%;
         height: 175px;
     }
